@@ -9,20 +9,16 @@ public class PrimeiroPrograma {
 		// TODO Auto-generated method stub
 		
 		Gato gato = new Gato();
-		Livros livros = new Livros();
+		Livro livro = new Livro();
 		
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(livro);
 		    
-/*		int a = 2;
-		int b = 3;
-		System.out.println("Olá Mundo!" + (a+b));
-*/
 	}
 
 }
 
-class Livros {
-	private String nome;
-	private String npag;
+class Livro {
+	public String nome;
+	public Integer numpaginas;
 }
